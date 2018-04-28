@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="exports.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="exports.cpp">
+    <ClCompile Include="operation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
