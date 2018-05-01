@@ -48,6 +48,22 @@ namespace Base
 		return localMultiByteString;
 	}
 
+	std::string UTF16ToASCII(const std::wstring &str)
+	{
+		if (str.empty())
+			return std::string();
+		int str_size;
+		if (str.size() > size_t(std::numeric_limits<int>::max()))
+			str_size = std::numeric_limits<int>::max();
+		else
+			str_size = int(str.size());
+		int size = WideCharToMultiByte(CP_ACP, 0, str.c_str(), str_size, nullptr, 0, NULL, NULL);
+		std::string localMultiByteString;
+		localMultiByteString.resize(size);
+		CHECK_NE_WIN32API(WideCharToMultiByte(CP_ACP, 0, str.c_str(), str_size, &localMultiByteString[0], size + 1, NULL, NULL), 0);
+		return localMultiByteString;
+	}
+
 	std::wstring toLowerCase(const std::wstring& str)
 	{
 		std::wstring lowercaseString = str;

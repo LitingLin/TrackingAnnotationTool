@@ -11,6 +11,7 @@ namespace Base
 {
 	std::wstring UTF8ToUTF16(const std::string &str);
 	std::string UTF16ToUTF8(const std::wstring &str);
+	std::string UTF16ToASCII(const std::wstring &str);
 	//std::string toUpperCase(const std::string &str);
 	//std::wstring toUpperCase(const std::wstring &str);
 	//std::string toLowerCase(const std::string &str);

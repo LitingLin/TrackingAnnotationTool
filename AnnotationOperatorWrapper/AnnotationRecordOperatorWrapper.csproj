@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\x64\Release\annotation-record-operator.dll" Link="annotation-record-operator.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmat.dll" Link="libmat.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmx.dll" Link="libmx.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmwfl.dll" Link="libmwfl.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmwfoundation_usm.dll" Link="libmwfoundation_usm.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmwi18n.dll" Link="libmwi18n.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libut.dll" Link="libut.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\hdf5.dll" Link="hdf5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_log-vc140-mt-1_56.dll" Link="boost_log-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_system-vc140-mt-1_56.dll" Link="boost_system-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\icuuc56.dll" Link="icuuc56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\tbb.dll" Link="tbb.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\tbbmalloc.dll" Link="tbbmalloc.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\zlib1.dll" Link="zlib1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libmwresource_core.dll" Link="libmwresource_core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_date_time-vc140-mt-1_56.dll" Link="boost_date_time-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_filesystem-vc140-mt-1_56.dll" Link="boost_filesystem-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_thread-vc140-mt-1_56.dll" Link="boost_thread-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\icuin56.dll" Link="icuin56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\libexpat.dll" Link="libexpat.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_regex-vc140-mt-1_56.dll" Link="boost_regex-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_serialization-vc140-mt-1_56.dll" Link="boost_serialization-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\boost_chrono-vc140-mt-1_56.dll" Link="boost_chrono-vc140-mt-1_56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\icudt56.dll" Link="icudt56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files\MATLAB\R2017b\bin\win64\icuio56.dll" Link="icuio56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -21,15 +21,6 @@ namespace web_service
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseHttpSys(options =>
-                {
-                    // The following options are set to default values.
-                    options.Authentication.Schemes = AuthenticationSchemes.None;
-                    options.Authentication.AllowAnonymous = true;
-                    options.MaxConnections = null;
-                    options.MaxRequestBodySize = 30000000;
-                    options.UrlPrefixes.Add(String.Format("http://127.0.0.1:3839"));
-                })
                 .Build();
     }
 }

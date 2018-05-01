@@ -2,10 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <LocalDebuggerEnvironment>PATH=$(SolutionDir)third_party\bin;%PATH%
-$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
-  </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)third_party\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
