@@ -23,15 +23,15 @@ namespace web_service.Controllers
         public struct Record
         {
             public bool labeled;
-            public uint x1;
-            public uint y1;
-            public uint x2;
-            public uint y2;
+            public uint x;
+            public uint y;
+            public uint w;
+            public uint h;
             public bool occlusion;
-            public bool out_of_view;
+            public bool outOfView;
         }
 
-        private string[] getSequences()
+        private string[] GetSequences()
         {
             string datasetPath = _configuration["DataSet:Path"];
             DirectoryInfo datasetDirectoryInfo = new DirectoryInfo(datasetPath);
@@ -54,14 +54,14 @@ namespace web_service.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return getSequences();
+            return GetSequences();
         }
 
         [HttpGet]
         [Route("{sequence}/{subSequence}")]
         public IEnumerable<Record> Get(string sequence, string subSequence)
         {
-
+            return new Record[]{new Record(), };
         }
     }
 }
